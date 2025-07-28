@@ -1,0 +1,154 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: right;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+
+}
+.full-photo{
+    position: relative;
+}
+.full-photo img{
+    width: 100%;
+    height: auto;
+}
+.full-text{
+    position: absolute;
+    top: 0%;
+    color: skyblue;
+    padding: 20px;
+}
+.full-text h2{
+    display: inline-block;
+    color: white;
+    top: 10;
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+    text-shadow: 3px 3px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.personal-training{
+    text-align: center;
+    text-shadow: 3px 3px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.equipment{
+
+    text-shadow: 3px 3px 15px;
+}
+.equ{
+    position: relative;
+}
+.gym-equipment{
+    position: absolute;
+    padding-left: 50%;
+    height: 100%;
+    width: auto;
+    top: 0%;
+
+
+}
+.address{
+    color: hsl(0, 80%, 57%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.working-hours{
+    color: hsl(0, 80%, 57%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact{
+    color: hsl(0, 80%, 57%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mapping{
+    position: relative;
+}
+.map{
+    position: absolute;
+    top: 0%;
+    padding-left: 50%;
+}
+.contact-me{
+    background-color: grey;
+    border-radius: 10px;
+}
+.trail{
+    text-align: center;
+}
+input {
+    width: 70%;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+textarea {
+    width: 70%;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: white;
+    margin-bottom: 10px;
+    margin-left: 12%;
+
+}
+input:focus-within {
+    outline: none;
+    border-color: white;
+    border-width: 3px;
+}
+textarea:focus-within {
+    outline: none;
+    border-color: white;
+    border-width: 3px;
+}
+button {
+    background-color: hsl(0, 80%, 57%);
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.navbar{
+    position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+}
